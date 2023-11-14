@@ -1,0 +1,33 @@
+    
+    
+    
+  
+{
+  "name": "oop_zee",
+  "version": "1.0.1",
+  "description": "A tool for introduction to OOP (Object Oriented Programming)",
+  "main": "index.mjs",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dependencies": "^0.0.1",
+    "package-json": "^8.1.1",
+    "@types/node": "^20.5.7",
+    "@types/prompt-sync": "^4.2.0",
+    "inquirer": "^9.2.10",
+    "prompt-sync": "^4.2.0"
+  },
+  
+  "bin": {
+    "oop": "./bin/index.mjs"
+  },
+  "scripts": {
+    "start": "node ./bin/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "dev-dependencies": "^1.0.0",
+    "@types/inquirer": "^9.0.3"
+  }
+}
